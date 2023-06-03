@@ -11,7 +11,7 @@ late String name;
 }
 ```
 класс для реализации 4 функций
-``` class ProductsImpl { ``` 
+``` class ProductsImpl ``` 
 * добавляет новый продукт 
   * возвращает true - если продукта с таким id еще не было
   * возвращает false - если был такой id, вставка отменяется ``` bool addProduct(Product product) ```
